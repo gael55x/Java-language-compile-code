@@ -29,7 +29,7 @@ public class Linkedlist{
         }
         // 1 -> 2 -> 3 -> 4
         // insert: 1.2 idx: 2
-        // 1 -> 2 -> 3 -> 1.2 -> 4
+        // 1 -> 2 -> 1.2 -> 3 -> 4
         newN.next = curr.next; 
         curr.next = newN; 
 
